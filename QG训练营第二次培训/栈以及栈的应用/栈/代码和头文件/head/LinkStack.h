@@ -23,15 +23,15 @@ typedef  struct  LinkStack
 
 
 
-//��ջ
-Status initLStack(LinkStack *s);//��ʼ��ջ
-Status isEmptyLStack(LinkStack *s);//�ж�ջ�Ƿ�Ϊ��
-Status getTopLStack(LinkStack *s,ElemType *e);//�õ�ջ��Ԫ��
-Status clearLStack(LinkStack *s);//���ջ
-Status destroyLStack(LinkStack *s);//����ջ
-Status LStackLength(LinkStack *s,int *length);//���ջ����
-Status pushLStack(LinkStack *s,ElemType data);//��ջ
-Status popLStack(LinkStack *s,ElemType *data);//��ջ
+
+Status initLStack(LinkStack *s);
+Status isEmptyLStack(LinkStack *s);
+Status getTopLStack(LinkStack *s,ElemType *e);
+Status clearLStack(LinkStack *s);
+Status destroyLStack(LinkStack *s);
+Status LStackLength(LinkStack *s,int *length);
+Status pushLStack(LinkStack *s,ElemType data);
+Status popLStack(LinkStack *s,ElemType *data);
 void inputvalue(ElemType *element,ElemType upperbound,ElemType lowerbound);
 
 #endif 
